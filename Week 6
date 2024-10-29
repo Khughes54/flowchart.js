@@ -1,0 +1,22 @@
+# Mad Libs Program
+
+def mad_libs():
+    name = input("Enter your name: ").strip()
+    verb1 = input("Enter a verb: ").strip()
+    verb2 = input("Enter another verb: ").strip()
+    noun1 = input("Enter a noun: ").strip()
+    noun2 = input("Enter another noun: ").strip()
+    adjective1 = input("Enter an adjective: ").strip()
+    adjective2 = input("Enter another adjective: ").strip()
+    integer1 = input("Enter an integer: ").strip()
+    integer2 = input("Enter another integer: ").strip()
+
+    story = f"""
+    Once upon a time, {name} decided to {verb1} a {adjective1} {noun1}. 
+    It was so {adjective2} that they couldn't help but {verb2} with joy! 
+    They counted to {integer1} and then to {integer2} before embarking on their next adventure with their {noun2}.
+    """
+
+    print(story)
+
+mad_libs()
